@@ -1,2 +1,41 @@
-@import "tailwindcss";
+/*@import "tailwindcss";*/
+
+body {
+  padding: 20px;
+  width: 500px;
+  background: #efefef;
+  margin: 0 auto 0 auto;
+}
+ul {
+  background: white;
+  border: 5px solid purple;
+  padding: 30px;
+  border-radius: 20px;
+}
+h1 {
+  color: darkslategray;
+  border-bottom: 10px dotted purple;
+  font-size: 2rem;
+  font-family: sans-serif, serif;
+}
+h2 {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.job-title {
+  color: darkslategray;
+  font-weight: bold;
+  font-family: sans-serif, serif;
+}
+p {
+  font-family: sans-serif, serif;
+}
+a:link {
+  color: green;
+}
+a:hover {
+  color: darkorange;
+  text-decoration: none;
+}
+
 
