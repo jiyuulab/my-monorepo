@@ -1,0 +1,79 @@
+/*@import "tailwindcss";*/
+
+/*Exercício 01*/
+h1.ex-01 {
+  color: blue;
+}
+h2.ex-01 {
+  background: blue;
+  color: white;
+}
+span.ex-01 {
+  font-size: 200%;
+}
+
+/*Exercício 02*/
+#special {
+  background: yellow;
+}
+.alert {
+  border: 2px solid gray;
+}
+.alert.stop {
+  background: red;
+}
+.alert.go {
+  background: green;
+}
+
+/*Exercício 03*/
+a:link.ex-03 {
+  color: orange;
+}
+a:visited.ex-03 {
+  color: green;
+}
+a:hover.ex-03 {
+  text-decoration: none;
+}
+.container p.ex-03:first-child {
+  font-size: 150%;
+}
+.container p.ex-03::first-line {
+  color: red;
+}
+tr:nth-child(even) {
+  background: #333333;
+  color: white
+}
+
+/*Exercício 04*/
+h2.ex-04 + * {
+  color: red;
+}
+ul.list > li {
+  text-decoration: none;
+  border-bottom: 1px solid gray;
+}
+
+/*Exercício 05*/
+ul.ex-05 li {
+  height: 3em;
+}
+ul.ex-05 li a {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  border: 3px solid black;
+}
+ul.ex-05 li a[title] {
+  border-color: pink;
+}
+ul.ex-05 li a[href*="contact"] {
+  border-color: orange;
+}
+ul.ex-05 li a[href^="https"] {
+  border-color: green;
+}
+
+
